@@ -1,0 +1,71 @@
+
+
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+#hero{
+  background-image: url(https://glitch-io.github.io/EcommWebsite/img/hero-banner.png);
+  height: 90vh;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+.container{ 
+  padding: 20px 90px;
+}
+.hero-content{ 
+  margin-left: 90px;
+}
+#hero h2{ 
+  font-size: 54px;
+  font-weight: 300;
+  color: rgb(0, 0, 0);
+}
+#hero .shoes-content{ 
+  font-size: 54px;
+  font-weight: bold;
+  color: black;
+}
+#hero p{
+  font-weight: normal;
+  color: #1f252b;
+}
+#hero button{ 
+  background-color: hsl(5, 100%, 73%);
+  border: none;
+  color: white;
+  padding: 20px 50px;
+  font-size: 24px;
+  font-weight: 100;
+  margin-top: 20px;
+}
+
+
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #213547;
+    background-color: #ffffff;
+  }
+  a:hover {
+    color: #747bff;
+  }
+  button {
+    background-color: #f9f9f9;
+  }
+}

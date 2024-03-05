@@ -1,0 +1,83 @@
+.products_title{ 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.products_title h1{ 
+    font-size: 42px;
+    color: black;
+}
+
+.brand_names{ 
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 30px;
+}
+.brand_names button{  
+    border: 2px solid black;
+    background-color: white;
+    border-radius: 20px;
+    font-size: 18px;
+    padding: 8px 18px;
+    cursor: pointer;
+}
+.brand_names button:hover{  
+    color: white;
+    background-color: hsl(5, 100%, 73%);
+}
+
+.items{ 
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 70px 50px;
+}
+.item{ 
+    width: 22%;
+    text-align: center;
+    border: 1px solid rgb(206, 206, 206);
+    padding: 15px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+.item img{
+    width: 100%;
+    border-radius: 10px;
+}
+
+.item .gender{ 
+    color: grey;
+    font-weight: bold;
+    font-size: 16px;
+}
+.item .shoetype{ 
+    color: black;
+    font-weight: bold;
+    font-size: 18px;
+}
+.item .shoetype:hover{  
+    color: hsl(5, 100%, 73%);
+    
+}
+.item .price{ 
+    color: hsl(5, 100%, 73%);
+    font-weight: bold;
+    font-size: 18px;
+}
+
+@media (max-width: 768px) {
+    .item{ 
+        width: 48%;
+    }     
+}
+@media (max-width: 500px) {
+    .item{ 
+        width: 100%;
+    }     
+    .items{ 
+        padding: 70px 20px;
+    }
+} 

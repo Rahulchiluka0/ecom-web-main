@@ -1,0 +1,85 @@
+.offers{ 
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 0 90px;
+}
+.offer-1{ 
+    background-image: url(https://glitch-io.github.io/EcommWebsite/img/cta-1.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    padding: 50px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 45%;
+}
+.offer-2{ 
+    background-image: url(https://glitch-io.github.io/EcommWebsite/img/cta-2.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    padding: 50px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 45%;
+}
+.offers h3{ 
+    font-size: 20px;
+    font-weight: lighter;
+    text-align: center;
+}
+.offers h1{ 
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    /* margin: 0 250px; */
+    line-height: normal;
+}
+.offers button{ 
+    font-size: 20px;
+    background-color: rgba(0, 0, 0, 0);
+    color: white;
+    border: none;
+    margin-top: 30px;
+    cursor: pointer;
+}
+
+.services ul{ 
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 100px;
+}
+.services ul li{ 
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.service-name h2{ 
+    font-size: 20px;
+    color: black;
+    
+}
+.service-name p{ 
+    font-size: 14px;
+    font-weight: normal;
+}
+@media (max-width:768px){
+    .offer-1, .offer-2{
+        width:100%;
+    }
+}
+/* .services ul li .img-div{  
+    display: flex;
+    align-items: center;
+    background-color: aqua;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+} */
